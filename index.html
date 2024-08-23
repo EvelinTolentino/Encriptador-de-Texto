@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desencriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body">
+    <main class="main">
+        <section class="inicio">
+            <section class="a">
+                <img class="a__imagen" src="imagen/Logo.png" alt="" width="80">
+                <textarea  class="ingresa" name="comentario" rows="4" cols="50" placeholder="Ingresa el texto aqui"></textarea>
+            </section>
+    
+    
+            <section class="boton">
+                <div class="boton__minuscula">
+                    
+                    <span class="boton__aviso">solo letras minusculas y sin acentos</span>
+                </div>
+                <div class="boton__todos">
+                    <button class="boton__bot" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="boton__bot2" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+                
+            </section>
+    
+        </section>
+        
+
+        <div class="imagen">
+           
+            <img class="imagen__persona" src="imagen/Muñeco.png" alt="">
+            <h5 class="imagen__mensaje"> Ningún mensaje fue encontrado</h5>
+            <textarea  class="imagen__texto" name="comentario" rows="4" cols="50" placeholder="Ingresa el texto aqui"></textarea>
+           
+        </div>
+    </main>
+    <script src="scrip.js"></script>
+
+</body>
+
+</html>
